@@ -1,0 +1,21 @@
+.button-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-round:hover {
+    background: #00C470;
+    transition: 0.4s;
+}
+
+.button-round:not(:hover) {
+    transition: 0.4s;
+}
